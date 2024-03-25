@@ -3,38 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles-menu.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="icon" href="img/logo.png" type="image/x-icon">
-    <title>Alke Wallet: Resumen</title>
+    <link rel="icon" href="../assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/styles-transactions.css">
+    <link rel="icon" href="../assets/img/logo.png" type="image/x-icon">
+    <title>Alke Wallet: Movimientos</title>
 </head>
 <body>
-    <!-- NAV -->
+    <!-- NAVBAR -->
     <nav class="navbar">
-        <a class="navbar-brand" href="login.html">Alke Wallet</a>
+        <a class="navbar-brand" href="../login.html">Alke Wallet</a>
         <ul>
             <li><a href="menu.html">Inicio</a></li>
             <li><a href="sendmoney.html">Enviar Dinero</a></li>
             <li><a href="transactions.html">Movimientos</a></li>
-            <li><a href="login.html">Cerrar Sesión</a></li>
+            <li><a href="../login.html">Cerrar Sesión</a></li>
         </ul>
     </nav>
     <!-- CONTENIDO WEB -->
-    <div class="container">
-        <button type="button" id="enviar">Enviar</button>
-        <button type="button" id="solicitar">Retirar</button>
-        <h2>Alke Wallet ©</h2>
-        <img src="img/logo.png" alt="Logo">
-        
-    </div>
-
-    <div class="container-saldo">
-       <h2 class="saldo-title">Saldo de Alke Wallet</h2>
-        <h1 class="">$7.655.891</h1>
-        <p class="txt-saldo">Disponible</p>
-    </div>
-
-
     <div class="container-mov">
         <h2 class="mov-title">Movimientos recientes</h2>
         <button type="button-mov">
@@ -60,11 +45,37 @@
             </div>
             <p class ="total-mov">-$12.589</p>
         </button>
-        <a class="mostrartodos" href="transactions.html">Mostrar todos</a>
+        <button type="button-mov">
+            <div class ="info-mov">
+                <p class="name-mov">María Pérez</p>
+                <p class="detalle-mov">12 ene. Pago enviado</p>  
+            </div>
+            <p class ="total-mov">-$25.000</p>
+        </button>
+        <button type="button-mov">
+            <div class ="info-mov">
+                <p class="name-mov">Pedro Martínez</p>
+                <p class="detalle-mov">10 ene. Pago recibido</p>  
+            </div>
+            <p class ="total-mov">+$47.000</p>
+        </button>
+        <button type="button-mov">
+            <div class ="info-mov">
+                <p class="name-mov">Juan García</p>
+                <p class="detalle-mov">07 ene. Pago enviado</p>  
+            </div>
+            <p class ="total-mov">-$-8.500</p>
+        </button>
+        <button type="button-mov">
+            <div class ="info-mov">
+                <p class="name-mov">Luisa Sánchez</p>
+                <p class="detalle-mov">02 ene. Pago recibido</p>  
+            </div>
+            <p class ="total-mov">+$62.000</p>
+        </button>
      </div>
-
      <!-- FOOTER -->
-     <footer> 
+     <footer>
             <ul>
                 <li><a href="#">Contacto y ayuda</a></li>
                 <li><a href="#">Contáctenos</a></li>
@@ -72,10 +83,5 @@
             </ul>
         <p class="copyright">©1999-2024 Alke Wallet, Inc. Todos los derechos reservados.</p>
     </footer>
-
-    
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="js/script-menu.js"></script>
 </body>
 </html>

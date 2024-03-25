@@ -23,7 +23,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // Check if username and password match
     if (email === 'mardonesalv' && password === '1234') {
         // Redirect to
-        window.location.href = 'menu.html';
+        window.location.href = 'pages/menu.html';
     } else {
         // Show error message
         alert('Usuario o contraseña incorrectos.');
