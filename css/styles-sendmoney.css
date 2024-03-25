@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ 
+ /* Estilos generales */
+
+ * {
+    font-family: "Montserrat", sans-serif;
+ }
+ body {
+    margin: 0;
+    background-image: url('../img/wlppr2.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background: linear-gradient(to right, #72B29C, #5DB3E2); 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Estilos para los elementos del navbar */
+.navbar ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+.navbar li {
+    margin-right: 20px; 
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.navbar a:hover {
+    color: whitesmoke; 
+    text-decoration: none;
+}
+
+/*BUSCADOR DE CONTACTOS*/
+.container {
+    border: 1px solid #DFDFDF;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 400px;
+    margin-top: 40px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+input[type="text"] {
+    border: 1px solid #DFDFDF;
+    width: calc(100% - 30px); 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 auto; 
+    margin-bottom: 10px;
+}
+.search-results {
+    display: none;
+    border-radius: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.search-results a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+.search-results a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos del footer */
+footer {
+    background: linear-gradient(to right, #72B29C, #5DB3E2);
+    padding: 5px 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+}
+
+footer li {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: 0 10px; 
+}
+
+footer a:hover {
+    color: whitesmoke; 
+    text-decoration: none;
+}
+
+/* Ajustes para el copyright */
+.copyright {
+    margin-top: 10px; 
+    font-size: 14px;
+    color: #777;
+}
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles-deposit.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>Alke Wallet: Retiro</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <a class="navbar-brand" href="login.html">Alke Wallet</a>
+        <ul>
+            <li><a href="menu.html">Inicio</a></li>
+            <li><a href="sendmoney.html">Enviar Dinero</a></li>
+            <li><a href="transactions.html">Movimientos</a></li>
+            <li><a href="login.html">Cerrar Sesión</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO WEB -->
+    <div class="container">
+        <img src="img/logo.png" alt="Logo">
+        <div id="contacto">Retiro de Dinero</div>
+        <div class="content">
+            <input type="text" id="monto" placeholder="Ingrese la cantidad de dinero">
+            <button id="hacerRetiro">Hacer Retiro</button>
+         </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <ul>
+            <li><a href="#">Contacto y ayuda</a></li>
+            <li><a href="#">Contáctenos</a></li>
+            <li><a href="#">Seguridad</a></li>
+        </ul>
+        <p class="copyright">©1999-2024 Alke Wallet, Inc. Todos los derechos reservados.</p>
+    </footer>
+    <!-- Script -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+    const hacerRetiroBtn = document.getElementById('hacerRetiro');
+    
+    hacerRetiroBtn.addEventListener('click', function() {
+        window.location.href = 'retiro-pass.html'; // Reemplaza 'otra_pagina.html' con la URL de la página a la que deseas redirigir
+    });
+});
+
+    </script>
+</body>
+</html>

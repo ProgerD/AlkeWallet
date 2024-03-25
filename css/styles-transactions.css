@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ 
+ /* Estilos generales */
+
+ * {
+    font-family: "Montserrat", sans-serif;
+ }
+ body {
+    margin: 0;
+    background-image: url('../img/wlppr2.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background: linear-gradient(to right, #72B29C, #5DB3E2); 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Estilos para los elementos del navbar */
+.navbar ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+.navbar li {
+    margin-right: 20px; 
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.navbar a:hover {
+    color: whitesmoke; 
+    text-decoration: none;
+}
+
+
+/*CONTAINER MOVIMIENTOS RECIENTES*/
+.container-mov {
+    background-color: #FFFFFF;
+    border: 2px solid #E7E7E7;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 20px !important;
+    margin-left: 450px !important;
+    max-width: 600px !important; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.mov-title {
+    margin-left: 0;
+    padding: 15px;
+    font-size: 25px;
+}
+
+/*BOTÓN HISTORIAL DE MOVIMIENTOS*/
+.container-mov button {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s; 
+}
+
+.container-mov button .info-mov {
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.container-mov button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.container-mov button .name-mov {
+    font-size: 20px;
+    margin-bottom: 0px !important;
+}
+
+.container-mov button .detalle-mov {
+    font-size: 15px;
+    margin-top: 0px !important;
+    margin: 0;
+}
+
+.container-mov button .total-mov {
+    font-size: 25px;
+    margin-top:10px;
+}
+
+
+/* Estilos del footer */
+footer {
+    background: linear-gradient(to right, #72B29C, #5DB3E2);
+    padding: 5px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+footer li {
+    margin-top: 10px;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-left: 20px;
+}
+
+footer a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Ajustes para el copyright */
+.copyright {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+    margin-left: auto; 
+}

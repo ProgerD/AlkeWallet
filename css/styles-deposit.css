@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ 
+ /* Estilos generales */
+
+ * {
+    font-family: "Montserrat", sans-serif;
+ }
+ body {
+    margin: 0;
+    background-image: url('../img/wlppr2.png'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background: linear-gradient(to right, #72B29C, #5DB3E2); 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Estilos para los elementos del navbar */
+.navbar ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+.navbar li {
+    margin-right: 20px; 
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.navbar a:hover {
+    color: whitesmoke; 
+    text-decoration: none;
+}
+
+/*   */
+.container {
+    border: 1px solid #DFDFDF;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 400px;
+    margin-top: 40px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.container img{
+    width: 50px;
+    margin-left: 0px;
+}
+
+#contacto {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DFDFDF;
+    border-radius: 15px;
+    align-items: center;
+}
+
+button {
+    border: 2px solid red;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #72B29C, #5DB3E2);
+    border-radius: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del footer */
+footer {
+    background: linear-gradient(to right, #72B29C, #5DB3E2);
+    padding: 5px 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    margin: 0; 
+    display: flex;
+}
+
+footer li {
+    margin-top: 10px;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-left: 20px;
+}
+
+footer a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*  */
+.copyright {
+    margin-top: 10px; 
+    font-size: 14px;
+    color: #777;
+}
